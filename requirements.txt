@@ -1,3 +1,8 @@
 pytest==7.4.0
+<<<<<<< HEAD
 requests==2.32.4
 urllib3==2.5.0
+=======
+requests==2.20.0
+urllib3==1.24.1
+>>>>>>> 8cd20e984968489839efe044945eba85da42a490
