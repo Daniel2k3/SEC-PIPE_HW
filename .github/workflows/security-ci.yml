@@ -21,7 +21,7 @@ jobs:
           pip install safety bandit
       
       - name: Run Tests
-        run: pytest tests/
+        run: tests/
       
       - name: Security Check 1 - Dependency Scan
         run: |
