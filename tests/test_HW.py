@@ -1,5 +1,11 @@
 import unittest
-from src.CI_HW import add, subtract
+
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
 
 class TestMyFunctions(unittest.TestCase):
     def test_add(self):
